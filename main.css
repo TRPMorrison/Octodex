@@ -1,31 +1,41 @@
 body {
 	width: 1433px;
-	height: 535px;
+	height: 544px;
 	font-family: sans-serif;
+	display: inline;
 }
 
 .octocat img {
 	width: 337px;
 	height: 341px;
+	border: 2px solid;
+	border-color: #d3cdc8;
 }
 
 .authors img {
-	width: 25px;
-	border: none;
+	width: 20px;
+	height: 30px;
+	border: bottom;
+	left: 0;
+	bottom: 0;
 }
 
 .octocat {
 	float: left;
-	border: 1px solid;
-	border-color: #E4E4E4;
-
 }
 
 ul {
 	list-style: none;
 }
 
-
 .image-number::before {
 	content: "#";
+}
+
+.image-footer {
+	display: inline;
+	float: none;
+	margin-right: 0px;
+	font-size: 9pt;
+	font color: #d3cdc8;
 }
