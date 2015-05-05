@@ -1,0 +1,31 @@
+body {
+	width: 1433px;
+	height: 535px;
+	font-family: sans-serif;
+}
+
+.octocat img {
+	width: 337px;
+	height: 341px;
+}
+
+.authors img {
+	width: 25px;
+	border: none;
+}
+
+.octocat {
+	float: left;
+	border: 1px solid;
+	border-color: #E4E4E4;
+
+}
+
+ul {
+	list-style: none;
+}
+
+
+.image-number::before {
+	content: "#";
+}
