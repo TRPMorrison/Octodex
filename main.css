@@ -11,15 +11,15 @@ body {
 	height: 377px;
 	border: 1.5px solid;
 	border-color: #d3cdc8;
+	margin: 10px;
+	margin-left: 10px
 }
 
 .authors img {
 	display: inline;
 	width: 20px;
 	height: 30px;
-	border: bottom;
-	left: 0;
-	bottom: 0;
+	margin-right: -10px;
 }
 
 .octocat {
@@ -36,11 +36,11 @@ ul {
 }
 
 .image-footer {
-	left: 0;
-	bottom: 0;
+	margin: 10px;
+	margin-top: -10px;
+	margin-left: 10px;
 	font-size: 9pt;
 	font color: #d3cdc8;
-	padding: 10px;
 	border-bottom: 1.5px solid;
 	border-color: #d3cdc8;
 }
