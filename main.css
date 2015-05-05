@@ -22,6 +22,7 @@ body {
 	margin-right: -10px;
 }
 
+
 .octocat {
 	float: left;
 	left: 30px;
@@ -29,6 +30,10 @@ body {
 
 ul {
 	list-style: none;
+}
+
+a {
+	text-decoration: none;
 }
 
 .image-number::before {
