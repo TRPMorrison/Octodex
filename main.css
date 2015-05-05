@@ -2,17 +2,19 @@ body {
 	width: 1433px;
 	height: 544px;
 	font-family: sans-serif;
-	display: inline;
+	display: inline-block;
+	margin: 0px;
 }
 
 .octocat img {
-	width: 337px;
-	height: 341px;
-	border: 2px solid;
+	width: 377px;
+	height: 377px;
+	border: 1.5px solid;
 	border-color: #d3cdc8;
 }
 
 .authors img {
+	display: inline;
 	width: 20px;
 	height: 30px;
 	border: bottom;
@@ -22,6 +24,7 @@ body {
 
 .octocat {
 	float: left;
+	left: 30px;
 }
 
 ul {
@@ -33,9 +36,11 @@ ul {
 }
 
 .image-footer {
-	display: inline;
-	float: none;
-	margin-right: 0px;
+	left: 0;
+	bottom: 0;
 	font-size: 9pt;
 	font color: #d3cdc8;
+	padding: 10px;
+	border-bottom: 1.5px solid;
+	border-color: #d3cdc8;
 }
