@@ -5,10 +5,9 @@ body {
 	height: 544px;
 	font-family: sans-serif verdana;
 	display: inline-block;
-	margin: 0px;
-	margin-left: 0px;
+	margin: 15px;
+	margin-left: 15px;
 }
-
 
 
 ul {
@@ -23,7 +22,6 @@ ul {
 }
 
 /* OCTOCATS */
-
 
 
 .octocat {
@@ -56,14 +54,22 @@ ul {
 .image-footer {
 	margin: 10px;
 	margin-top: .5px;
-	padding-top: .5px;
-	padding-bottom: 8px;
+	padding-top: 15px;
+	padding-bottom: 10px;
 	font-size: 9pt;
 	font color: #d3cdc8;
 	border-bottom: 1.5px solid;
 	border-color: #d3cdc8;
 	overflow: hidden;
 }
+ul.authors {
+	padding: 0;
+	display: inline-block;
+	margin: 0;
+	margin-left: 0px;
+	vertical-align: middle;
+}
+
 .authors img {
 	display: inline;
 	width: 30px;
@@ -71,12 +77,6 @@ ul {
 	margin-right: 0px;
 	margin-top: .5px;
 	float: right;
-}
-
-.authors {
-	text-align: left;
-	margin: 0;
-	margin-left: 0px;
 }
 
 .image-footer span {
@@ -87,8 +87,31 @@ ul {
 .image-caption {
 	float: right;
 	font-size: 10pt;
+	font-weight: bold;
 	display: inline;
 	position: right;
 	overflow: hidden;
 }
 
+/* TRIANGLE 
+
+WHEN YOU DO A PSEUDOELEMENT, IT WILL CREATE IT ON THE ELEMENT, WHICH IS WHY YOU CAN'T PUT IT ON THE IMAGE.
+IMAGE FOOTER
+
+.image footer: {
+overflow: hidden;
+position relative
+}
+
+.image-footer::before {
+position: absolute;
+width; 0;
+height 0;
+border-style: solid;
+border-width: 10px 7.5px 0 7.5px;
+border color #cacaca transparent transparent transparte;
+content: " ";
+top:-5px;
+right:0px;
+margin-top: -5px;
+*/
