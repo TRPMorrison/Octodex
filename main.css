@@ -4,24 +4,33 @@ body {
 	font-family: sans-serif;
 	display: inline-block;
 	margin: 0px;
+	margin-left: 0px;
 }
 
 .octocat img {
 	width: 377px;
 	height: 377px;
-	border: 1.5px solid;
+	border: .1em solid;
 	border-color: #d3cdc8;
 	margin: 10px;
-	margin-left: 10px
+	margin-left: 5px;
+	margin-bottom: 0px;
 }
 
 .authors img {
 	display: inline;
-	width: 20px;
+	width: 30px;
 	height: 30px;
-	margin-right: -10px;
+	margin-right: 0px;
+	margin-top: .5px;
+	float: right;
 }
 
+.authors {
+	text-align: left;
+	margin: 0;
+	margin-left: 25px;
+}
 
 .octocat {
 	float: left;
@@ -42,10 +51,22 @@ a {
 
 .image-footer {
 	margin: 10px;
-	margin-top: -10px;
-	margin-left: 10px;
+	margin-top: 5px;
+	padding-top: .5px;
+	padding-bottom: 5px;
 	font-size: 9pt;
 	font color: #d3cdc8;
 	border-bottom: 1.5px solid;
 	border-color: #d3cdc8;
+	overflow: hidden;
+}
+
+.image-footer span {
+	position: left;
+}
+
+.image-caption {
+	display: inline;
+	position: left;
+	overflow: hidden;
 }
