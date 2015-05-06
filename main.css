@@ -29,7 +29,7 @@ body {
 .authors {
 	text-align: left;
 	margin: 0;
-	margin-left: 25px;
+	margin-left: 0px;
 }
 
 .octocat {
@@ -47,13 +47,14 @@ a {
 
 .image-number::before {
 	content: "#";
+	font-size: 10pt;
 }
 
 .image-footer {
 	margin: 10px;
-	margin-top: 5px;
+	margin-top: .5px;
 	padding-top: .5px;
-	padding-bottom: 5px;
+	padding-bottom: 8px;
 	font-size: 9pt;
 	font color: #d3cdc8;
 	border-bottom: 1.5px solid;
@@ -62,11 +63,14 @@ a {
 }
 
 .image-footer span {
-	position: left;
+	padding-top: .5px;
+	font-size: 10pt;
 }
 
 .image-caption {
+	float: right;
+	font-size: 10pt;
 	display: inline;
-	position: left;
+	position: right;
 	overflow: hidden;
 }
