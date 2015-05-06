@@ -1,10 +1,32 @@
+/* GLOBAL STYLES */
+
 body {
 	width: 1433px;
 	height: 544px;
-	font-family: sans-serif;
+	font-family: sans-serif verdana;
 	display: inline-block;
-	margin: 0px;
-	margin-left: 0px;
+	margin: 15px;
+	margin-left: 15px;
+}
+
+
+ul {
+	list-style: none;
+}
+
+/* OCTODEX */
+
+.octodex {
+	padding: 0;
+	margin: 0;
+}
+
+/* OCTOCATS */
+
+
+.octocat {
+	float: left;
+	left: 30px;
 }
 
 .octocat img {
@@ -12,9 +34,40 @@ body {
 	height: 377px;
 	border: .1em solid;
 	border-color: #d3cdc8;
+	border-radius: 5px;
 	margin: 10px;
 	margin-left: 5px;
 	margin-bottom: 0px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+
+/* IMAGE FOOTER */
+
+
+.image-number::before {
+	content: "#";
+	font-size: 10pt;
+}
+
+.image-footer {
+	margin: 10px;
+	margin-top: .5px;
+	padding-top: 15px;
+	padding-bottom: 10px;
+	font-size: 9pt;
+	font color: #d3cdc8;
+	border-bottom: 1.5px solid;
+	border-color: #d3cdc8;
+	overflow: hidden;
+}
+ul.authors {
+	padding: 0;
+	display: inline-block;
+	margin: 0;
+	margin-left: 0px;
+	vertical-align: middle;
 }
 
 .authors img {
@@ -26,42 +79,6 @@ body {
 	float: right;
 }
 
-.authors {
-	text-align: left;
-	margin: 0;
-	margin-left: 0px;
-}
-
-.octocat {
-	float: left;
-	left: 30px;
-}
-
-ul {
-	list-style: none;
-}
-
-a {
-	text-decoration: none;
-}
-
-.image-number::before {
-	content: "#";
-	font-size: 10pt;
-}
-
-.image-footer {
-	margin: 10px;
-	margin-top: .5px;
-	padding-top: .5px;
-	padding-bottom: 8px;
-	font-size: 9pt;
-	font color: #d3cdc8;
-	border-bottom: 1.5px solid;
-	border-color: #d3cdc8;
-	overflow: hidden;
-}
-
 .image-footer span {
 	padding-top: .5px;
 	font-size: 10pt;
@@ -70,7 +87,31 @@ a {
 .image-caption {
 	float: right;
 	font-size: 10pt;
+	font-weight: bold;
 	display: inline;
 	position: right;
 	overflow: hidden;
 }
+
+/* TRIANGLE 
+
+WHEN YOU DO A PSEUDOELEMENT, IT WILL CREATE IT ON THE ELEMENT, WHICH IS WHY YOU CAN'T PUT IT ON THE IMAGE.
+IMAGE FOOTER
+
+.image footer: {
+overflow: hidden;
+position relative
+}
+
+.image-footer::before {
+position: absolute;
+width; 0;
+height 0;
+border-style: solid;
+border-width: 10px 7.5px 0 7.5px;
+border color #cacaca transparent transparent transparte;
+content: " ";
+top:-5px;
+right:0px;
+margin-top: -5px;
+*/
