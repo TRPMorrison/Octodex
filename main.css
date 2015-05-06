@@ -1,10 +1,34 @@
+/* GLOBAL STYLES */
+
 body {
 	width: 1433px;
 	height: 544px;
-	font-family: sans-serif;
+	font-family: sans-serif verdana;
 	display: inline-block;
 	margin: 0px;
 	margin-left: 0px;
+}
+
+
+
+ul {
+	list-style: none;
+}
+
+/* OCTODEX */
+
+.octodex {
+	padding: 0;
+	margin: 0;
+}
+
+/* OCTOCATS */
+
+
+
+.octocat {
+	float: left;
+	left: 30px;
 }
 
 .octocat img {
@@ -12,38 +36,17 @@ body {
 	height: 377px;
 	border: .1em solid;
 	border-color: #d3cdc8;
+	border-radius: 5px;
 	margin: 10px;
 	margin-left: 5px;
 	margin-bottom: 0px;
-}
-
-.authors img {
-	display: inline;
-	width: 30px;
-	height: 30px;
-	margin-right: 0px;
-	margin-top: .5px;
-	float: right;
-}
-
-.authors {
-	text-align: left;
-	margin: 0;
-	margin-left: 0px;
-}
-
-.octocat {
-	float: left;
-	left: 30px;
-}
-
-ul {
-	list-style: none;
-}
-
-a {
+	font-weight: bold;
 	text-decoration: none;
 }
+
+
+/* IMAGE FOOTER */
+
 
 .image-number::before {
 	content: "#";
@@ -61,6 +64,20 @@ a {
 	border-color: #d3cdc8;
 	overflow: hidden;
 }
+.authors img {
+	display: inline;
+	width: 30px;
+	height: 30px;
+	margin-right: 0px;
+	margin-top: .5px;
+	float: right;
+}
+
+.authors {
+	text-align: left;
+	margin: 0;
+	margin-left: 0px;
+}
 
 .image-footer span {
 	padding-top: .5px;
@@ -74,3 +91,4 @@ a {
 	position: right;
 	overflow: hidden;
 }
+
